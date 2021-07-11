@@ -1,0 +1,35 @@
+[0.313s] Invoking command in '/home/rockey/ros2_ws/src/py_topic': PYTHONPATH=/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_topic build --build-base /home/rockey/ros2_ws/build/py_topic/build install --prefix /home/rockey/ros2_ws/install/py_topic --record /home/rockey/ros2_ws/build/py_topic/install.log --single-version-externally-managed
+[0.576s] running egg_info
+[0.577s] creating ../../build/py_topic/py_topic.egg-info
+[0.577s] writing ../../build/py_topic/py_topic.egg-info/PKG-INFO
+[0.578s] writing dependency_links to ../../build/py_topic/py_topic.egg-info/dependency_links.txt
+[0.578s] writing entry points to ../../build/py_topic/py_topic.egg-info/entry_points.txt
+[0.578s] writing requirements to ../../build/py_topic/py_topic.egg-info/requires.txt
+[0.578s] writing top-level names to ../../build/py_topic/py_topic.egg-info/top_level.txt
+[0.580s] writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[0.621s] reading manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[0.622s] writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[0.622s] running build
+[0.622s] running build_py
+[0.622s] creating /home/rockey/ros2_ws/build/py_topic/build
+[0.623s] creating /home/rockey/ros2_ws/build/py_topic/build/lib
+[0.623s] creating /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic
+[0.623s] copying py_topic/__init__.py -> /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic
+[0.623s] running install
+[0.623s] running install_lib
+[0.625s] creating /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic
+[0.625s] copying /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic/__init__.py -> /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic
+[0.625s] byte-compiling /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic/__init__.py to __init__.cpython-38.pyc
+[0.627s] running install_data
+[0.628s] creating /home/rockey/ros2_ws/install/py_topic/share/ament_index
+[0.629s] creating /home/rockey/ros2_ws/install/py_topic/share/ament_index/resource_index
+[0.629s] creating /home/rockey/ros2_ws/install/py_topic/share/ament_index/resource_index/packages
+[0.629s] copying resource/py_topic -> /home/rockey/ros2_ws/install/py_topic/share/ament_index/resource_index/packages
+[0.629s] copying package.xml -> /home/rockey/ros2_ws/install/py_topic/share/py_topic
+[0.629s] running install_egg_info
+[0.631s] Copying ../../build/py_topic/py_topic.egg-info to /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info
+[0.632s] running install_scripts
+[0.657s] Installing py_pub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+[0.658s] Installing py_sub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+[0.658s] writing list of installed files to '/home/rockey/ros2_ws/build/py_topic/install.log'
+[0.686s] Invoked command in '/home/rockey/ros2_ws/src/py_topic' returned '0': PYTHONPATH=/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_topic build --build-base /home/rockey/ros2_ws/build/py_topic/build install --prefix /home/rockey/ros2_ws/install/py_topic --record /home/rockey/ros2_ws/build/py_topic/install.log --single-version-externally-managed

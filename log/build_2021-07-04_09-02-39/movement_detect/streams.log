@@ -1,0 +1,24 @@
+[1.455s] Invoking command in '/home/rockey/ros2_ws/src/movement_detect': PYTHONPATH=/home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement_detect build --build-base /home/rockey/ros2_ws/build/movement_detect/build install --prefix /home/rockey/ros2_ws/install/movement_detect --record /home/rockey/ros2_ws/build/movement_detect/install.log --single-version-externally-managed
+[2.307s] running egg_info
+[2.308s] writing ../../build/movement_detect/movement_detect.egg-info/PKG-INFO
+[2.308s] writing dependency_links to ../../build/movement_detect/movement_detect.egg-info/dependency_links.txt
+[2.309s] writing entry points to ../../build/movement_detect/movement_detect.egg-info/entry_points.txt
+[2.309s] writing requirements to ../../build/movement_detect/movement_detect.egg-info/requires.txt
+[2.309s] writing top-level names to ../../build/movement_detect/movement_detect.egg-info/top_level.txt
+[2.644s] reading manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'
+[2.661s] writing manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'
+[2.662s] running build
+[2.668s] running build_py
+[2.669s] copying movement_detect/movement_detector_mpo.py -> /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect
+[2.677s] running install
+[2.690s] running install_lib
+[2.717s] copying /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect/movement_detector_mpo.py -> /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect
+[2.729s] byte-compiling /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect/movement_detector_mpo.py to movement_detector_mpo.cpython-38.pyc
+[2.784s] running install_data
+[2.796s] running install_egg_info
+[2.841s] removing '/home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect-0.0.0-py3.8.egg-info' (and everything under it)
+[2.855s] Copying ../../build/movement_detect/movement_detect.egg-info to /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect-0.0.0-py3.8.egg-info
+[2.878s] running install_scripts
+[3.230s] Installing movement_detector_mpo script to /home/rockey/ros2_ws/install/movement_detect/lib/movement_detect
+[3.234s] writing list of installed files to '/home/rockey/ros2_ws/build/movement_detect/install.log'
+[3.610s] Invoked command in '/home/rockey/ros2_ws/src/movement_detect' returned '0': PYTHONPATH=/home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement_detect build --build-base /home/rockey/ros2_ws/build/movement_detect/build install --prefix /home/rockey/ros2_ws/install/movement_detect --record /home/rockey/ros2_ws/build/movement_detect/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+py_pub_spiral = py_topic.py_pub_spiral:main
+py_sub_spiral = py_topic.py_sub_spiral:main
+

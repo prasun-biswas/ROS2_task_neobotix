@@ -1,0 +1,101 @@
+[0.000000] (-) TimerEvent: {}
+[0.000901] (movement_detect) JobQueued: {'identifier': 'movement_detect', 'dependencies': OrderedDict()}
+[0.001040] (py_topic) JobQueued: {'identifier': 'py_topic', 'dependencies': OrderedDict()}
+[0.001851] (movement_detect) JobStarted: {'identifier': 'movement_detect'}
+[0.065029] (py_topic) JobStarted: {'identifier': 'py_topic'}
+[0.102271] (-) TimerEvent: {}
+[0.203008] (-) TimerEvent: {}
+[0.303651] (-) TimerEvent: {}
+[0.404047] (-) TimerEvent: {}
+[0.504460] (-) TimerEvent: {}
+[0.604865] (-) TimerEvent: {}
+[0.705405] (-) TimerEvent: {}
+[0.807657] (-) TimerEvent: {}
+[0.909567] (-) TimerEvent: {}
+[1.019675] (-) TimerEvent: {}
+[1.130032] (-) TimerEvent: {}
+[1.241166] (-) TimerEvent: {}
+[1.343124] (-) TimerEvent: {}
+[1.444760] (-) TimerEvent: {}
+[1.547705] (-) TimerEvent: {}
+[1.649690] (-) TimerEvent: {}
+[1.751774] (-) TimerEvent: {}
+[1.854232] (-) TimerEvent: {}
+[1.957386] (-) TimerEvent: {}
+[2.059094] (-) TimerEvent: {}
+[2.160817] (-) TimerEvent: {}
+[2.263610] (-) TimerEvent: {}
+[2.365470] (-) TimerEvent: {}
+[2.467559] (-) TimerEvent: {}
+[2.569327] (-) TimerEvent: {}
+[2.671205] (-) TimerEvent: {}
+[2.772993] (-) TimerEvent: {}
+[2.875268] (-) TimerEvent: {}
+[2.977930] (-) TimerEvent: {}
+[3.079587] (-) TimerEvent: {}
+[3.180036] (-) TimerEvent: {}
+[3.280496] (-) TimerEvent: {}
+[3.381213] (-) TimerEvent: {}
+[3.441540] (movement_detect) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/movement_detect', 'build', '--build-base', '/home/rockey/ros2_ws/build/movement_detect/build', 'install', '--prefix', '/home/rockey/ros2_ws/install/movement_detect', '--record', '/home/rockey/ros2_ws/build/movement_detect/install.log', '--single-version-externally-managed'], 'cwd': '/home/rockey/ros2_ws/src/movement_detect', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rockey', 'LC_TIME': 'fi_FI.UTF-8', 'SSH_AGENT_PID': '1756', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rockey/karelics_ws/install/neo_local_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rockey', 'OLDPWD': '/home/rockey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fi_FI.UTF-8', 'MANAGERPID': '1576', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '431805', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rockey/karelics_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rockey', 'JOURNAL_STREAM': '9:40922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rockey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rockey-ideapad:@/tmp/.ICE-unix/1836,unix/rockey-ideapad:/tmp/.ICE-unix/1836', 'INVOCATION_ID': 'c9ddf46d174b4341bd589f5f957dd9fe', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fi_FI.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fi_FI.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rockey/karelics_ws/install/py_topic:/home/rockey/karelics_ws/install/neo_teleop2:/home/rockey/karelics_ws/install/neo_simulation2:/home/rockey/karelics_ws/install/neo_local_planner:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'fi_FI.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8ea29af2-19e7-4423-a835-a18afae30c7a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fi_FI.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'fi_FI.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rockey/ros2_ws/build/movement_detect', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages:/home/rockey/karelics_ws/build/py_topic:/home/rockey/karelics_ws/install/py_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'fi_FI.UTF-8', 'LC_PAPER': 'fi_FI.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rockey/karelics_ws/install/neo_teleop2:/home/rockey/karelics_ws/install/neo_simulation2:/home/rockey/karelics_ws/install/neo_local_planner'}, 'shell': False}
+[3.480160] (py_topic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_topic', 'build', '--build-base', '/home/rockey/ros2_ws/build/py_topic/build', 'install', '--prefix', '/home/rockey/ros2_ws/install/py_topic', '--record', '/home/rockey/ros2_ws/build/py_topic/install.log', '--single-version-externally-managed'], 'cwd': '/home/rockey/ros2_ws/src/py_topic', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rockey', 'LC_TIME': 'fi_FI.UTF-8', 'SSH_AGENT_PID': '1756', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rockey/karelics_ws/install/neo_local_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rockey', 'OLDPWD': '/home/rockey', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fi_FI.UTF-8', 'MANAGERPID': '1576', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '431805', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/rockey/karelics_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rockey', 'JOURNAL_STREAM': '9:40922', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rockey', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rockey-ideapad:@/tmp/.ICE-unix/1836,unix/rockey-ideapad:/tmp/.ICE-unix/1836', 'INVOCATION_ID': 'c9ddf46d174b4341bd589f5f957dd9fe', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fi_FI.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fi_FI.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rockey/karelics_ws/install/py_topic:/home/rockey/karelics_ws/install/neo_teleop2:/home/rockey/karelics_ws/install/neo_simulation2:/home/rockey/karelics_ws/install/neo_local_planner:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'fi_FI.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:8ea29af2-19e7-4423-a835-a18afae30c7a', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fi_FI.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'fi_FI.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rockey/ros2_ws/build/py_topic', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:/home/rockey/karelics_ws/build/py_topic:/home/rockey/karelics_ws/install/py_topic/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'fi_FI.UTF-8', 'LC_PAPER': 'fi_FI.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/rockey/karelics_ws/install/neo_teleop2:/home/rockey/karelics_ws/install/neo_simulation2:/home/rockey/karelics_ws/install/neo_local_planner'}, 'shell': False}
+[3.482904] (-) TimerEvent: {}
+[3.583883] (-) TimerEvent: {}
+[3.685113] (-) TimerEvent: {}
+[3.786257] (-) TimerEvent: {}
+[3.887012] (-) TimerEvent: {}
+[3.989987] (-) TimerEvent: {}
+[4.090457] (-) TimerEvent: {}
+[4.191052] (-) TimerEvent: {}
+[4.291601] (-) TimerEvent: {}
+[4.354445] (movement_detect) StdoutLine: {'line': b'running egg_info\n'}
+[4.356119] (movement_detect) StdoutLine: {'line': b'writing ../../build/movement_detect/movement_detect.egg-info/PKG-INFO\n'}
+[4.361556] (movement_detect) StdoutLine: {'line': b'writing dependency_links to ../../build/movement_detect/movement_detect.egg-info/dependency_links.txt\n'}
+[4.361920] (movement_detect) StdoutLine: {'line': b'writing entry points to ../../build/movement_detect/movement_detect.egg-info/entry_points.txt\n'}
+[4.362220] (movement_detect) StdoutLine: {'line': b'writing requirements to ../../build/movement_detect/movement_detect.egg-info/requires.txt\n'}
+[4.364080] (movement_detect) StdoutLine: {'line': b'writing top-level names to ../../build/movement_detect/movement_detect.egg-info/top_level.txt\n'}
+[4.377639] (py_topic) StdoutLine: {'line': b'running egg_info\n'}
+[4.379798] (py_topic) StdoutLine: {'line': b'writing ../../build/py_topic/py_topic.egg-info/PKG-INFO\n'}
+[4.380795] (py_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/py_topic/py_topic.egg-info/dependency_links.txt\n'}
+[4.382785] (py_topic) StdoutLine: {'line': b'writing entry points to ../../build/py_topic/py_topic.egg-info/entry_points.txt\n'}
+[4.383625] (py_topic) StdoutLine: {'line': b'writing requirements to ../../build/py_topic/py_topic.egg-info/requires.txt\n'}
+[4.384151] (py_topic) StdoutLine: {'line': b'writing top-level names to ../../build/py_topic/py_topic.egg-info/top_level.txt\n'}
+[4.392146] (-) TimerEvent: {}
+[4.492640] (-) TimerEvent: {}
+[4.563195] (py_topic) StdoutLine: {'line': b"reading manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'\n"}
+[4.566646] (py_topic) StdoutLine: {'line': b"writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'\n"}
+[4.567211] (py_topic) StdoutLine: {'line': b'running build\n'}
+[4.567543] (py_topic) StdoutLine: {'line': b'running build_py\n'}
+[4.569346] (py_topic) StdoutLine: {'line': b'running install\n'}
+[4.571562] (py_topic) StdoutLine: {'line': b'running install_lib\n'}
+[4.573996] (movement_detect) StdoutLine: {'line': b"reading manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'\n"}
+[4.577735] (movement_detect) StdoutLine: {'line': b"writing manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'\n"}
+[4.578971] (movement_detect) StdoutLine: {'line': b'running build\n'}
+[4.580036] (movement_detect) StdoutLine: {'line': b'running build_py\n'}
+[4.582056] (movement_detect) StdoutLine: {'line': b'copying movement_detect/movement_detector_mpo.py -> /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect\n'}
+[4.582564] (py_topic) StdoutLine: {'line': b'running install_data\n'}
+[4.584722] (movement_detect) StdoutLine: {'line': b'running install\n'}
+[4.592153] (py_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.592656] (-) TimerEvent: {}
+[4.595046] (movement_detect) StdoutLine: {'line': b'running install_lib\n'}
+[4.598461] (py_topic) StdoutLine: {'line': b"removing '/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.599046] (py_topic) StdoutLine: {'line': b'Copying ../../build/py_topic/py_topic.egg-info to /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info\n'}
+[4.603293] (movement_detect) StdoutLine: {'line': b'copying /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect/movement_detector_mpo.py -> /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect\n'}
+[4.605040] (py_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[4.605592] (movement_detect) StdoutLine: {'line': b'byte-compiling /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect/movement_detector_mpo.py to movement_detector_mpo.cpython-38.pyc\n'}
+[4.613743] (movement_detect) StdoutLine: {'line': b'running install_data\n'}
+[4.620762] (movement_detect) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.624017] (movement_detect) StdoutLine: {'line': b"removing '/home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.624723] (movement_detect) StdoutLine: {'line': b'Copying ../../build/movement_detect/movement_detect.egg-info to /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect-0.0.0-py3.8.egg-info\n'}
+[4.627104] (movement_detect) StdoutLine: {'line': b'running install_scripts\n'}
+[4.693104] (-) TimerEvent: {}
+[4.695254] (py_topic) StdoutLine: {'line': b'Installing py_pub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic\n'}
+[4.700583] (py_topic) StdoutLine: {'line': b'Installing py_sub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic\n'}
+[4.701512] (py_topic) StdoutLine: {'line': b"writing list of installed files to '/home/rockey/ros2_ws/build/py_topic/install.log'\n"}
+[4.707134] (movement_detect) StdoutLine: {'line': b'Installing movement_detector_mpo script to /home/rockey/ros2_ws/install/movement_detect/lib/movement_detect\n'}
+[4.708231] (movement_detect) StdoutLine: {'line': b"writing list of installed files to '/home/rockey/ros2_ws/build/movement_detect/install.log'\n"}
+[4.787818] (movement_detect) CommandEnded: {'returncode': 0}
+[4.793478] (-) TimerEvent: {}
+[4.846809] (movement_detect) JobEnded: {'identifier': 'movement_detect', 'rc': 0}
+[4.850122] (py_topic) CommandEnded: {'returncode': 0}
+[4.873391] (py_topic) JobEnded: {'identifier': 'py_topic', 'rc': 0}
+[4.875780] (-) EventReactorShutdown: {}

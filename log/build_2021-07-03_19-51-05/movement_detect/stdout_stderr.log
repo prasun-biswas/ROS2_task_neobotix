@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/movement_detect/movement_detect.egg-info
+writing ../../build/movement_detect/movement_detect.egg-info/PKG-INFO
+writing dependency_links to ../../build/movement_detect/movement_detect.egg-info/dependency_links.txt
+writing entry points to ../../build/movement_detect/movement_detect.egg-info/entry_points.txt
+writing requirements to ../../build/movement_detect/movement_detect.egg-info/requires.txt
+writing top-level names to ../../build/movement_detect/movement_detect.egg-info/top_level.txt
+writing manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'
+reading manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'
+writing manifest file '../../build/movement_detect/movement_detect.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rockey/ros2_ws/build/movement_detect/build
+creating /home/rockey/ros2_ws/build/movement_detect/build/lib
+creating /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect
+copying movement_detect/movement_detector_mpo.py -> /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect
+copying movement_detect/__init__.py -> /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect
+running install
+running install_lib
+creating /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect
+copying /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect/movement_detector_mpo.py -> /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect
+copying /home/rockey/ros2_ws/build/movement_detect/build/lib/movement_detect/__init__.py -> /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect
+byte-compiling /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect/movement_detector_mpo.py to movement_detector_mpo.cpython-38.pyc
+byte-compiling /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/rockey/ros2_ws/install/movement_detect/share/ament_index
+creating /home/rockey/ros2_ws/install/movement_detect/share/ament_index/resource_index
+creating /home/rockey/ros2_ws/install/movement_detect/share/ament_index/resource_index/packages
+copying resource/movement_detect -> /home/rockey/ros2_ws/install/movement_detect/share/ament_index/resource_index/packages
+copying package.xml -> /home/rockey/ros2_ws/install/movement_detect/share/movement_detect
+running install_egg_info
+Copying ../../build/movement_detect/movement_detect.egg-info to /home/rockey/ros2_ws/install/movement_detect/lib/python3.8/site-packages/movement_detect-0.0.0-py3.8.egg-info
+running install_scripts
+Installing py_pub_spiral script to /home/rockey/ros2_ws/install/movement_detect/lib/movement_detect
+writing list of installed files to '/home/rockey/ros2_ws/build/movement_detect/install.log'

@@ -1,0 +1,5 @@
+  File "/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic/py_sub_spiral.py", line 41
+    def__init__(self):
+                     ^
+SyntaxError: invalid syntax
+

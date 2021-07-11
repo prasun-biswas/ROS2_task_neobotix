@@ -1,0 +1,3 @@
+[console_scripts]
+movement_detector_mpo = movement_detect.movement_detector_mpo:main
+

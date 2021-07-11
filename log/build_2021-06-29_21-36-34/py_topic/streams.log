@@ -1,0 +1,25 @@
+[0.577s] Invoking command in '/home/rockey/ros2_ws/src/py_topic': PYTHONPATH=/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_topic build --build-base /home/rockey/ros2_ws/build/py_topic/build install --prefix /home/rockey/ros2_ws/install/py_topic --record /home/rockey/ros2_ws/build/py_topic/install.log --single-version-externally-managed
+[1.039s] running egg_info
+[1.040s] writing ../../build/py_topic/py_topic.egg-info/PKG-INFO
+[1.041s] writing dependency_links to ../../build/py_topic/py_topic.egg-info/dependency_links.txt
+[1.041s] writing entry points to ../../build/py_topic/py_topic.egg-info/entry_points.txt
+[1.042s] writing requirements to ../../build/py_topic/py_topic.egg-info/requires.txt
+[1.043s] writing top-level names to ../../build/py_topic/py_topic.egg-info/top_level.txt
+[1.124s] reading manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.126s] running build_py
+[1.127s] copying py_topic/py_sub_spiral.py -> /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic
+[1.127s] running install
+[1.129s] running install_lib
+[1.132s] copying /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic/py_sub_spiral.py -> /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic
+[1.132s] byte-compiling /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic/py_sub_spiral.py to py_sub_spiral.cpython-38.pyc
+[1.135s] running install_data
+[1.136s] running install_egg_info
+[1.139s] removing '/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info' (and everything under it)
+[1.139s] Copying ../../build/py_topic/py_topic.egg-info to /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info
+[1.141s] running install_scripts
+[1.181s] Installing py_pub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+[1.181s] Installing py_sub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+[1.182s] writing list of installed files to '/home/rockey/ros2_ws/build/py_topic/install.log'
+[1.225s] Invoked command in '/home/rockey/ros2_ws/src/py_topic' returned '0': PYTHONPATH=/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_topic build --build-base /home/rockey/ros2_ws/build/py_topic/build install --prefix /home/rockey/ros2_ws/install/py_topic --record /home/rockey/ros2_ws/build/py_topic/install.log --single-version-externally-managed

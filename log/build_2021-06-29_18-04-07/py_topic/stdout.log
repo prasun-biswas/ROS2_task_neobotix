@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/py_topic/py_topic.egg-info
+writing ../../build/py_topic/py_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_topic/py_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/py_topic/py_topic.egg-info/entry_points.txt
+writing requirements to ../../build/py_topic/py_topic.egg-info/requires.txt
+writing top-level names to ../../build/py_topic/py_topic.egg-info/top_level.txt
+writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rockey/ros2_ws/build/py_topic/build
+creating /home/rockey/ros2_ws/build/py_topic/build/lib
+creating /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic
+copying py_topic/__init__.py -> /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic
+running install
+running install_lib
+creating /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic
+copying /home/rockey/ros2_ws/build/py_topic/build/lib/py_topic/__init__.py -> /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic
+byte-compiling /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/rockey/ros2_ws/install/py_topic/share/ament_index
+creating /home/rockey/ros2_ws/install/py_topic/share/ament_index/resource_index
+creating /home/rockey/ros2_ws/install/py_topic/share/ament_index/resource_index/packages
+copying resource/py_topic -> /home/rockey/ros2_ws/install/py_topic/share/ament_index/resource_index/packages
+copying package.xml -> /home/rockey/ros2_ws/install/py_topic/share/py_topic
+running install_egg_info
+Copying ../../build/py_topic/py_topic.egg-info to /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info
+running install_scripts
+Installing py_pub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+Installing py_sub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+writing list of installed files to '/home/rockey/ros2_ws/build/py_topic/install.log'

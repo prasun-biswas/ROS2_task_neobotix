@@ -1,0 +1,22 @@
+[0.996s] Invoking command in '/home/rockey/ros2_ws/src/py_topic': PYTHONPATH=/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_topic build --build-base /home/rockey/ros2_ws/build/py_topic/build install --prefix /home/rockey/ros2_ws/install/py_topic --record /home/rockey/ros2_ws/build/py_topic/install.log --single-version-externally-managed
+[1.519s] running egg_info
+[1.520s] writing ../../build/py_topic/py_topic.egg-info/PKG-INFO
+[1.523s] writing dependency_links to ../../build/py_topic/py_topic.egg-info/dependency_links.txt
+[1.523s] writing entry points to ../../build/py_topic/py_topic.egg-info/entry_points.txt
+[1.524s] writing requirements to ../../build/py_topic/py_topic.egg-info/requires.txt
+[1.524s] writing top-level names to ../../build/py_topic/py_topic.egg-info/top_level.txt
+[1.614s] reading manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[1.616s] writing manifest file '../../build/py_topic/py_topic.egg-info/SOURCES.txt'
+[1.616s] running build
+[1.617s] running build_py
+[1.618s] running install
+[1.622s] running install_lib
+[1.623s] running install_data
+[1.626s] running install_egg_info
+[1.630s] removing '/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info' (and everything under it)
+[1.630s] Copying ../../build/py_topic/py_topic.egg-info to /home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages/py_topic-0.0.0-py3.8.egg-info
+[1.633s] running install_scripts
+[1.679s] Installing py_pub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+[1.680s] Installing py_sub_spiral script to /home/rockey/ros2_ws/install/py_topic/lib/py_topic
+[1.680s] writing list of installed files to '/home/rockey/ros2_ws/build/py_topic/install.log'
+[1.754s] Invoked command in '/home/rockey/ros2_ws/src/py_topic' returned '0': PYTHONPATH=/home/rockey/ros2_ws/install/py_topic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_topic build --build-base /home/rockey/ros2_ws/build/py_topic/build install --prefix /home/rockey/ros2_ws/install/py_topic --record /home/rockey/ros2_ws/build/py_topic/install.log --single-version-externally-managed
