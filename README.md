@@ -14,6 +14,8 @@ Run both files from separate terminal. source ROS2 foxy to be available from new
 ## Install neobotix simulation environment by performing the steps from this link below.
 
 	https://docs.neobotix.de/display/R2/Installation+on+Ubuntu
+	
+  a installed simulation environment is provided in karelics_ws.zip folder
   
 ## Set up neobotix simulation environment by performing the steps below.
 
