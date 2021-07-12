@@ -19,22 +19,29 @@ class MovementDetector(Node):
         self.distance_moved_pub = self.create_publisher(Float64, '/moved_distance', 1)
         self.subscriber_ = self.create_subscription(Odometry, '/odom', self.odom_callback, 1)
 
+
     def odom_callback(self, msg):
         if self._current_position is None:
             self._current_position = msg.pose.pose.position
         New_Position = msg.pose.pose.position
-        self._moved_distance.data += self.calculate_distance(New_Position, self._current_position)
+        changed_in_dist = self.calculate_distance(New_Position, self._current_position)
+
+        # self._moved_distance.data += self.calculate_distance(New_Position, self._current_position)
+        self._moved_distance.data += changed_in_dist
+
         self.update_current_position(New_Position)
-        if self._moved_distance.data < 0.001:
+        # if self._moved_distance.data < 0.001:
+        if changed_in_dist < 0.001:
             aux = Float64()
             aux.data = 0.0
             self.distance_moved_pub.publish(aux)
-            # print("published dist: "+str(aux))
+            print("published dist: "+str(aux))
             # self.get_logger().info(str(msg.header))
 
         else:
             self.distance_moved_pub.publish(self._moved_distance)
-            # print("published dist: "+str(self._moved_distance))
+            # self.get_logger().info(str(self._moved_distance))
+            print("published dist: "+str(self._moved_distance))
 
 
     def update_current_position(self, new_Position):
@@ -51,7 +58,7 @@ class MovementDetector(Node):
         # a tolerance value of 0.001 is selected to adjust with very small garbage value published by the simulator
         # even when the robot is not moving.
         if dist > 0.001:
-            self.get_logger().info(str(self._moved_distance))
+            # self.get_logger().info(str(self._moved_distance))
             return dist
         return 0.0
 
