@@ -11,10 +11,12 @@ Performs following tasks:
 
 Run both files from separate terminal. source ROS2 foxy to be available from new terminal window.
 
-## Set up neobotix simulation environment by performing the steps from this link below.
+## Install neobotix simulation environment by performing the steps from this link below.
 
 	https://docs.neobotix.de/display/R2/Installation+on+Ubuntu
   
+## Set up neobotix simulation environment by performing the steps below.
+
   Select the robot, workspace and launch simulation from a separate terminal:
   
       export MY_ROBOT=mpo_500
